@@ -1,7 +1,7 @@
 <?php
 $remitente = $_POST['email'];
 $destinatario = 'virsantillan98@hotmail.com.ar';
-$asunto = "Video marketing test";
+$asunto = "Asistencia casamiento";
 // $mail = $_POST['ProfesorH'];
 // $sBCC= $_POST['Correo'];
 
