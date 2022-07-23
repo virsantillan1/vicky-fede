@@ -1,0 +1,42 @@
+.probootstrap-wedding-countdown h4 {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.date-countdown>div {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .date-countdown>div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .date-countdown>div {
+        width: 100%;
+    }
+}
+
+.date-countdown>div .simply-amount {
+    font-size: 72px;
+    line-height: 60px !important;
+    text-transform: uppercase;
+    font-family: "Alice", serif;
+    color: #283618;
+}
+
+.date-countdown>div .simply-word {
+    display: block;
+    font-family: "Zilla Slab", serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .2em;
+    color: #283618;
+}
