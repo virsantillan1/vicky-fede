@@ -2,8 +2,6 @@
 $remitente = $_POST['email'];
 $destinatario = 'virsantillan98@hotmail.com.ar';
 $asunto = "Asistencia casamiento";
-// $mail = $_POST['ProfesorH'];
-// $sBCC= $_POST['Correo'];
 
 if (!$_POST){
 ?>
